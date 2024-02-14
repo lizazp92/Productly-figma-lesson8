@@ -97,7 +97,8 @@ body {
 
 .header-link,
 .header-buttons,
-.header {
+.header,
+.valid {
   display: flex;
   align-items: center;
 }
@@ -148,9 +149,13 @@ body {
 
 /* FEATURE  SECTION*/
 
-.h2-feature {
+.h2-feature,
+.h2-valid {
   font-size: 36px;
   font-weight: 700;
+}
+
+.h2-feature {
   max-width: 539px;
   margin-bottom: 54px;
   text-align: center;
@@ -199,13 +204,11 @@ body {
 .card4 {
   display: flex;
   flex-direction: column;
-  /* vertical-align: top; */
 }
 
 .flex-feature {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   align-content: center;
   justify-content: space-between;
 }
@@ -219,4 +222,54 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* effortless validation section */
+
+.h2-valid {
+  margin-bottom: 22px;
+  margin-top: 3px;
+  padding: 0;
+  color: #2f281e;
+}
+
+.h6-p-flex {
+  max-width: 486px;
+}
+
+.h6-style {
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #2f281e;
+}
+
+.p-valid,
+.span-valid {
+  font-weight: 500;
+  line-height: 1.6;
+  color: #544837;
+}
+.p-valid,
+.span-valid,
+.h6-style {
+  font-size: 16px;
+}
+
+.valid {
+  margin-top: 120px;
+}
+
+.h2-p {
+  margin-bottom: 30px;
+}
+.h6-p > p {
+  margin-bottom: 25px;
+}
+
+.valid-image {
+  background-image: url(../images/effortless-validation.png);
+  display: block;
+  width: 520px;
+  height: 574px;
+  margin-left: 104px;
 }
