@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  padding-left: 25px;
+  padding-left: 15px;
   padding-right: 15px;
   max-width: 1126px;
   margin: 20px auto;
@@ -112,7 +112,8 @@ body {
   font-size: 16px;
 }
 
-.header-button {
+.header-button,
+.feature-button {
   width: 175px;
   height: 53px;
   border-radius: 0;
@@ -143,4 +144,79 @@ body {
   width: 605px;
   height: 496px;
   margin-left: 3px;
+}
+
+/* FEATURE  SECTION*/
+
+.h2-feature {
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 539px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.h4-feature {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.p-feature {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 240px;
+  line-height: 1.6;
+}
+
+.card1-icon {
+  background-image: url(../assets/icons/feature/1-icon.png);
+  width: 50px;
+  height: 50px;
+}
+
+.card2-icon {
+  background-image: url(../assets/icons/feature/2-icon.png);
+  width: 50px;
+  height: 50px;
+}
+
+.card3-icon {
+  background-image: url(../assets/icons/feature/3-icon.png);
+  width: 50px;
+  height: 50px;
+}
+
+.card4-icon {
+  background-image: url(../assets/icons/feature/4-icon.png);
+  width: 50px;
+  height: 50px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  flex-direction: column;
+  /* vertical-align: top; */
+}
+
+.flex-feature {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  align-content: center;
+  justify-content: space-between;
+}
+
+.feature-button {
+  margin-top: 34px;
+  margin-bottom: 90px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
