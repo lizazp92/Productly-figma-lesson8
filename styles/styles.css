@@ -99,7 +99,8 @@ body {
 .header-buttons,
 .header,
 .valid,
-.product-managers {
+.product-managers,
+.marketers-opt {
   display: flex;
   align-items: center;
 }
@@ -152,7 +153,8 @@ body {
 
 .h2-feature,
 .h2-valid,
-.h2-prodman {
+.h2-prodman,
+.h2-mark {
   font-size: 36px;
   font-weight: 700;
 }
@@ -230,7 +232,8 @@ body {
 /* effortless validation section */
 
 .h2-valid,
-.h2-prodman {
+.h2-prodman,
+.h2-mark {
   margin-bottom: 22px;
   margin-top: 3px;
   padding: 0;
@@ -251,14 +254,17 @@ body {
 .span-valid,
 .prodman-span,
 .p-prodman,
-.point-text {
+.point-text,
+.p-mark,
+.span-marketers {
   font-weight: 500;
   line-height: 1.6;
   color: #544837;
 }
 .p-valid,
 .span-valid,
-.h6-style {
+.h6-style,
+.span-marketers {
   font-size: 16px;
 }
 
@@ -282,6 +288,7 @@ body {
   margin-left: 104px;
 }
 /* product managers section */
+
 .product-managers {
   margin-bottom: 104px;
 }
@@ -327,4 +334,18 @@ body {
   flex-direction: column;
   max-height: 216px;
   justify-content: start;
+}
+
+/* marketers section */
+
+.mark-image {
+  background-image: url(../images/marketers.png);
+  display: block;
+  width: 542px;
+  height: 609px;
+  margin-left: 82px;
+}
+
+.marketers-opt {
+  margin-bottom: 146px;
 }
