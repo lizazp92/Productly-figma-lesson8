@@ -349,3 +349,56 @@ body {
 .marketers-opt {
   margin-bottom: 146px;
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 83px;
+}
+.footer-headline {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f281e;
+  line-height: 1.5;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 2.5;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  color: #544837;
+}
+
+.h2-footer {
+  max-width: 325px;
+  margin-bottom: 20px;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+.footer-button {
+  width: 131px;
+  height: 39px;
+  border-radius: 0;
+  margin-top: 21px;
+}
+
+input::placeholder {
+  color: #bcd0e5;
+  font-weight: bold;
+}
+
+input[type="tel"] {
+  border-color: #bcd0e5;
+  width: 325px;
+  height: 48px;
+}
