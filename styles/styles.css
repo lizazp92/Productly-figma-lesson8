@@ -98,7 +98,8 @@ body {
 .header-link,
 .header-buttons,
 .header,
-.valid {
+.valid,
+.product-managers {
   display: flex;
   align-items: center;
 }
@@ -150,7 +151,8 @@ body {
 /* FEATURE  SECTION*/
 
 .h2-feature,
-.h2-valid {
+.h2-valid,
+.h2-prodman {
   font-size: 36px;
   font-weight: 700;
 }
@@ -167,7 +169,8 @@ body {
   margin-bottom: 13px;
 }
 
-.p-feature {
+.p-feature,
+.point-text {
   font-size: 16px;
   font-weight: 400;
   max-width: 240px;
@@ -226,7 +229,8 @@ body {
 
 /* effortless validation section */
 
-.h2-valid {
+.h2-valid,
+.h2-prodman {
   margin-bottom: 22px;
   margin-top: 3px;
   padding: 0;
@@ -244,7 +248,10 @@ body {
 }
 
 .p-valid,
-.span-valid {
+.span-valid,
+.prodman-span,
+.p-prodman,
+.point-text {
   font-weight: 500;
   line-height: 1.6;
   color: #544837;
@@ -257,6 +264,7 @@ body {
 
 .valid {
   margin-top: 120px;
+  margin-bottom: 100px;
 }
 
 .h2-p {
@@ -272,4 +280,51 @@ body {
   width: 520px;
   height: 574px;
   margin-left: 104px;
+}
+/* product managers section */
+.product-managers {
+  margin-bottom: 104px;
+}
+.prodman-content {
+  width: 486px;
+}
+
+.prodman-image {
+  background-image: url(../images/product-managers.png);
+  display: block;
+  width: 535px;
+  height: 521px;
+  margin-right: 100px;
+}
+.point-icon {
+  background-image: url(../assets/icons/product-managers-icon.png);
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.prodman-point1,
+.prodman-point2,
+.prodman-point3,
+.prodman-point4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.prodman-point1 {
+  margin-top: 20px;
+}
+
+.point-text {
+  max-width: 420px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  max-height: 216px;
+  justify-content: start;
 }
