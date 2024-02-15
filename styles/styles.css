@@ -313,7 +313,8 @@ body {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 25px;
   margin-bottom: 30px;
 }
 .prodman-point:first-of-type {
@@ -321,7 +322,7 @@ body {
 }
 
 .point-text {
-  max-width: 420px;
+  max-width: 375px;
 }
 
 .flex-col {
