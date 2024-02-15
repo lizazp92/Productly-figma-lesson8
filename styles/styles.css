@@ -203,10 +203,7 @@ body {
   height: 50px;
 }
 
-.card1,
-.card2,
-.card3,
-.card4 {
+.card {
   display: flex;
   flex-direction: column;
 }
@@ -261,6 +258,7 @@ body {
   line-height: 1.6;
   color: #544837;
 }
+
 .p-valid,
 .span-valid,
 .h6-style,
@@ -310,10 +308,7 @@ body {
   display: block;
 }
 
-.prodman-point1,
-.prodman-point2,
-.prodman-point3,
-.prodman-point4 {
+.prodman-point {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -321,7 +316,7 @@ body {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.prodman-point1 {
+.prodman-point:first-of-type {
   margin-top: 20px;
 }
 
@@ -401,4 +396,9 @@ input[type="tel"] {
   border-color: #bcd0e5;
   width: 325px;
   height: 48px;
+}
+
+input[type="tel"]:focus {
+  background-color: #7c957b;
+  color: white;
 }
