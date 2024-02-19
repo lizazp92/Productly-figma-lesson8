@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Allerta&display=swap");
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   padding-left: 15px;
@@ -6,6 +32,20 @@ body {
   margin: 20px auto;
   width: 100%;
   font-weight: 400;
+}
+h1,
+.point-text,
+footer li {
+  font-family: "Protest Revolution", sans-serif;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+
+h1:hover,
+h2:hover {
+  text-transform: uppercase;
+  text-decoration: underline dashed gray;
+  color: #6ec201;
 }
 
 /* NAVIGATION */
@@ -26,6 +66,12 @@ body {
 
 .nav-list > li {
   margin-left: 50px;
+}
+
+.nav-list > li:hover {
+  text-transform: uppercase;
+  text-decoration: underline dashed rgb(136, 28, 28);
+  font-weight: 700;
 }
 
 .nav-list > li > a {
@@ -173,8 +219,9 @@ body {
 
 .p-feature,
 .point-text {
-  font-size: 16px;
-  font-weight: 400;
+  font: small-caps 600 16px "Allerta";
+  font-variant-numeric: slashed-zero;
+
   max-width: 240px;
   line-height: 1.6;
 }
@@ -235,6 +282,7 @@ body {
   margin-top: 3px;
   padding: 0;
   color: #2f281e;
+  text-shadow: 5px 5px #558abb;
 }
 
 .h6-p-flex {
@@ -355,7 +403,7 @@ footer {
 }
 .footer-headline {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   color: #2f281e;
   line-height: 1.5;
 }
@@ -390,7 +438,7 @@ footer h2 {
 
 input::placeholder {
   color: #bcd0e5;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 input[type="tel"] {
