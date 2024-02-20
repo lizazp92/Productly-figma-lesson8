@@ -329,7 +329,7 @@ footer {
   line-height: 2.5;
 }
 
-.footer-list > li > a {
+.footer__list > li > a {
   text-decoration: none;
   color: #544837;
 }
