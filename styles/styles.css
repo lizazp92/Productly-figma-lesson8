@@ -38,8 +38,8 @@ body {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  background-color: white;
 }
-
 .nav-bar__list {
   list-style-type: none;
   display: flex;
@@ -190,6 +190,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  border: none;
 }
 
 .feature__flexbox {
