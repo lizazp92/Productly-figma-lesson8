@@ -13,9 +13,23 @@ body {
   font-weight: 700;
 }
 
+.h6-styling {
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #2f281e;
+}
+
 .flexbox-center {
   display: flex;
   align-items: center;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
 }
 
 /* NAVIGATION */
@@ -198,41 +212,36 @@ body {
 
 /* effortless validation section */
 
-.h2-valid,
-.h2-prodman,
-.h2-mark {
+.valid__h2,
+.prodman__h2,
+.mark__h2 {
   margin-bottom: 22px;
   margin-top: 3px;
   padding: 0;
   color: #2f281e;
 }
 
-.h6-p-flex {
+.valid__content,
+.marketers__content {
   max-width: 486px;
 }
 
-.h6-style {
-  font-weight: 700;
-  margin: 0 0 12px 0;
-  color: #2f281e;
-}
-
-.p-valid,
-.span-valid,
+.valid__content-p,
+.valid__content-span,
 .prodman-span,
-.p-prodman,
-.point-text,
-.p-mark,
-.span-marketers {
+.prodman__content-p,
+.prodman-point__text,
+.marketers__content-p,
+.marketers__content-span {
   font-weight: 500;
   line-height: 1.6;
   color: #544837;
 }
 
-.p-valid,
-.span-valid,
-.h6-style,
-.span-marketers {
+.valid__content-p,
+.valid__content-span,
+.h6-styling,
+.marketers__content-span {
   font-size: 16px;
 }
 
@@ -240,17 +249,11 @@ body {
   margin-top: 120px;
   margin-bottom: 100px;
 }
-
-.h2-p {
+.valid__content p:first-of-type {
   margin-bottom: 30px;
 }
-.h6-p > p {
-  margin-bottom: 25px;
-}
 
-.valid-image {
-  background-image: url(../images/effortless-validation.png);
-  display: block;
+.valid__image {
   width: 520px;
   height: 574px;
   margin-left: 104px;
@@ -260,13 +263,11 @@ body {
 .product-managers {
   margin-bottom: 104px;
 }
-.prodman-content {
+.prodman__content {
   width: 486px;
 }
 
-.prodman-image {
-  background-image: url(../images/product-managers.png);
-  display: block;
+.prodman__image {
   width: 535px;
   height: 521px;
   margin-right: 100px;
@@ -295,18 +296,9 @@ body {
   max-width: 375px;
 }
 
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  max-height: 216px;
-  justify-content: start;
-}
-
 /* marketers section */
 
-.mark-image {
-  background-image: url(../images/marketers.png);
-  display: block;
+.marketers__image {
   width: 542px;
   height: 609px;
   margin-left: 82px;
@@ -323,14 +315,14 @@ footer {
   justify-content: space-around;
   margin-bottom: 83px;
 }
-.footer-headline {
+.footer__headline {
   font-size: 20px;
   font-weight: bold;
   color: #2f281e;
   line-height: 1.5;
 }
 
-.footer-list {
+.footer__list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -342,7 +334,7 @@ footer {
   color: #544837;
 }
 
-.h2-footer {
+.footer__h2 {
   max-width: 325px;
   margin-bottom: 20px;
 }
@@ -351,7 +343,7 @@ footer h2 {
   margin-top: 0;
 }
 
-.footer-button {
+.footer__btn {
   width: 131px;
   height: 39px;
   border-radius: 0;
