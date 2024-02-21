@@ -115,7 +115,6 @@ body {
 /* LINKS FOR LEFT SIDE HEADER */
 
 .header {
-  margin-top: 30px;
   margin-bottom: 110px;
 }
 
@@ -258,6 +257,11 @@ body {
   width: 520px;
   height: 574px;
   margin-left: 104px;
+}
+
+.valid__content .card {
+  width: 18rem;
+  border: 1px solid black;
 }
 /* product managers section */
 
