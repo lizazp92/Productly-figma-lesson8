@@ -96,7 +96,7 @@ body {
 /* HEADER */
 
 /* LEFT SIDE */
-.header__content-h1 {
+.header-content__title {
   font-size: 44px;
   font-weight: 700;
   color: #2f281e;
@@ -104,7 +104,7 @@ body {
   line-height: 1.2;
 }
 
-.header__content-p {
+.header-content__description {
   font-size: 18px;
   color: #544837;
   max-width: 458px;
@@ -119,24 +119,24 @@ body {
   margin-bottom: 110px;
 }
 
-.header__link {
+.header-link {
   text-decoration-color: #ff9900;
 }
 
-.header__link-text {
+.header-link__description {
   color: #ff9900;
   font-weight: 600;
   font-size: 16px;
 }
 
-.header__buttons-get-started,
+.header-content__button,
 .feature__button {
   width: 175px;
   height: 53px;
   border-radius: 0;
   font-weight: 700;
 }
-.header__link-triangle-icon {
+.header-link__icon {
   background-image: url(../assets/icons/header-triangle-icon.svg);
   width: 20px;
   height: 17px;
@@ -144,11 +144,11 @@ body {
   margin-right: 8.5px;
 }
 
-.header__link-text:hover {
+.header-link__description:hover {
   color: #ba7000;
 }
 
-.header__link-text:active {
+.header-link__description:active {
   color: #2e5200;
 }
 
@@ -162,19 +162,19 @@ body {
 
 /* FEATURE  SECTION*/
 
-.feature__h2 {
+.feature__title {
   max-width: 539px;
   margin-bottom: 54px;
   text-align: center;
 }
 
-.feature__h4 {
+.card__title {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 13px;
 }
 
-.feature__text,
+.card__text,
 .prodman-point__text {
   font-size: 16px;
   font-weight: 400;
@@ -182,7 +182,7 @@ body {
   line-height: 1.6;
 }
 
-.card__icon-size {
+.card__icon {
   width: 50px;
   height: 50px;
 }
@@ -192,7 +192,7 @@ body {
   flex-direction: column;
 }
 
-.feature__flexbox {
+.feature__card-wrapper {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -212,9 +212,9 @@ body {
 
 /* effortless validation section */
 
-.valid__h2,
-.prodman__h2,
-.mark__h2 {
+.valid__content-title,
+.prodman__content-title,
+.marketers__content-title {
   margin-bottom: 22px;
   margin-top: 3px;
   padding: 0;
@@ -226,22 +226,22 @@ body {
   max-width: 486px;
 }
 
-.valid__content-p,
-.valid__content-span,
-.prodman-span,
-.prodman__content-p,
-.prodman-point__text,
-.marketers__content-p,
-.marketers__content-span {
+.valid__content-description,
+.valid__content-text,
+.prodman__content-text,
+.prodman__content-description,
+.prodman__point-text,
+.marketers__content-description,
+.marketers__content-text {
   font-weight: 500;
   line-height: 1.6;
   color: #544837;
 }
 
-.valid__content-p,
-.valid__content-span,
+.valid__content-description,
+.valid__content-text,
 .h6-styling,
-.marketers__content-span {
+.marketers__content-text {
   font-size: 16px;
 }
 
@@ -249,7 +249,7 @@ body {
   margin-top: 120px;
   margin-bottom: 100px;
 }
-.valid__content p:first-of-type {
+.valid__content-description:first-of-type {
   margin-bottom: 30px;
 }
 
@@ -260,7 +260,7 @@ body {
 }
 /* product managers section */
 
-.product-managers {
+.prodman {
   margin-bottom: 104px;
 }
 .prodman__content {
@@ -272,14 +272,14 @@ body {
   height: 521px;
   margin-right: 100px;
 }
-.prodman-point__icon {
+.prodman__point-icon {
   background-image: url(../assets/icons/product-managers-icon.png);
   width: 35px;
   height: 35px;
   display: block;
 }
 
-.prodman-point {
+.prodman__point {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -288,11 +288,11 @@ body {
   gap: 25px;
   margin-bottom: 30px;
 }
-.prodman-point:first-of-type {
+.prodman__point:first-of-type {
   margin-top: 20px;
 }
 
-.prodman-point__text {
+.prodman__point-text {
   max-width: 375px;
 }
 
@@ -304,7 +304,7 @@ body {
   margin-left: 82px;
 }
 
-.marketers-opt {
+.marketers {
   margin-bottom: 146px;
 }
 
@@ -315,7 +315,7 @@ footer {
   justify-content: space-around;
   margin-bottom: 83px;
 }
-.footer__headline {
+.footer__title {
   font-size: 20px;
   font-weight: bold;
   color: #2f281e;
@@ -334,7 +334,7 @@ footer {
   color: #544837;
 }
 
-.footer__h2 {
+.footer__title-positioning {
   max-width: 325px;
   margin-bottom: 20px;
 }
